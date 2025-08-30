@@ -10,15 +10,15 @@ const Formed = () => {
         <input
         type="text"
         placeholder="Street"
-        value={formData.name}
+        value={formData.street}
         onChange={(e)=>updateFormData("street",e.target.value)}
         />
         <br />
          <input
         type="text"
-        placeholder="Adress"
-        value={formData.name}
-        onChange={(e)=>updateFormData("adress",e.target.value)}
+        placeholder="Address"
+        value={formData.address}
+        onChange={(e)=>updateFormData("address",e.target.value)}
         />
         <br />
         <button onClick={()=>setInfo(1)}>previous</button>

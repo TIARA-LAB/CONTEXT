@@ -17,7 +17,7 @@ const Form = () => {
          <input
         type="email"
         placeholder="Email"
-        value={formData.name}
+        value={formData.email}
         onChange={(e)=>updateFormData("email",e.target.value)}
         />
         <br />
